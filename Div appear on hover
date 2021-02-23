@@ -1,0 +1,39 @@
+from: /* https://tf01.themeruby.com/work/ */
+
+#div_block-13-12:hover #fancy_icon-74-12 {
+  opacity: 1;
+}
+
+#div_block-13-12:nth-child(3) #headline-67-12 {
+  font-size: 32px;
+ 
+}
+
+
+#div_block-13-12:nth-child(3) #headline-67-12:hover {
+
+  border-bottom: solid 3px #ffffff;
+  
+}
+
+
+#div_block-13-12:nth-child(3) #div_block-77-12 {
+
+
+ opacity: 0;max-height: 0px;overflow: hidden;transition: 1s ease-in-out opacity,1s ease-in-out max-height;
+  
+}
+
+#div_block-13-12:nth-child(3):hover #div_block-77-12 {
+  
+  opacity: 1;
+  max-height: 400px;
+  
+}
+
+
+#div_block-13-12:not(:nth-child(3)) #div_block-77-12 {
+
+  display: none;
+
+}
